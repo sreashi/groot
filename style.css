@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.nav{
+ color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+  
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
