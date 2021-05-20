@@ -1,4 +1,4 @@
-var banana = document.querySelector("#banana");
+var btn = document.querySelector(".btn");
 var txt = document.querySelector("#text");
 var result = document.querySelector("#text2");
 // var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?";
@@ -25,5 +25,5 @@ function clickHandler() {
     .catch(errorHandler)
 };
 
-banana.addEventListener("click",clickHandler)
+btn.addEventListener("click",clickHandler);
 
